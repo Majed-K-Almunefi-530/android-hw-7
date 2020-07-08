@@ -7,7 +7,7 @@
     android:background="#CE015693">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageview"
         android:layout_width="120dp"
         android:layout_height="120dp"
         tools:srcCompat="@drawable/pika"
@@ -55,14 +55,14 @@
         />
 
     <ImageView
-
-        android:id="@+id/imageView3"
+        android:id="@+id/trash"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="350dp"
         android:layout_marginTop="90dp"
-        tools:srcCompat = "@drawable/trash"
+        android:layout_marginLeft="350dp"
+        android:src="@drawable/trash"
         />
+
 
 
 </RelativeLayout>
